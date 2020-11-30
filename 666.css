@@ -1,0 +1,81 @@
+body {background-color: #6A1420;}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #111111;
+}
+
+.container {
+  background-color: #111111;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 10vw;
+  text-shadow: 4px 4px 0px #E3374F;
+  mix-blend-mode: screen;
+  animation: fadeIn 2.5s linear forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+.content{
+    max-width: 600px;
+    padding:20px;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    color:  #E3374F;
+}
+
+h2 {
+    padding:10px;
+    font-family: palatino linotype;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn{
+    height:50px;
+    width:150px;
+    font-family: palatino linotype;
+    font-weight: bold;
+    font-size: 16px;
+    color:#black;
+    background-color: red;
+    border: groove 1em red;
+  border-radius: 1em;
+}
+
+.card{
+    padding:15px 30px 15px 30px;
+    max-width:500px;
+    max-height:200px;
+    text-align: center;
+    border-radius: 5px;
+    border-top: #ee9be4 5px;
+    margin-top: 20px;
+    bottom: auto
+    } 
+
+button:focus {outline: none;}
+
+p{
+  font-family: palatino;
+  font-style: italic;
+  font-size: 20px;}
